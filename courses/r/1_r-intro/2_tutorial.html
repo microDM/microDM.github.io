@@ -416,14 +416,38 @@ summary {
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#vectors">Vectors</a><ul>
+<li><a href="#creating-vectors">Creating vectors</a></li>
+<li><a href="#more-shortcut-methods-to-create-vector">More shortcut methods to create vector</a></li>
+<li><a href="#indices">Indices</a></li>
+<li><a href="#what-about-heterogenous-vectors-containing-data-of-different-types-lets-try-it.">What about heterogenous vectors, containing data of different types? Lets try it.</a></li>
+</ul></li>
+<li><a href="#lists">Lists</a><ul>
+<li><a href="#creating-list">Creating list</a></li>
+<li><a href="#named-list">Named list</a></li>
+<li><a href="#addingdeleting-elements-from-the-list">Adding/deleting elements from the list</a></li>
+</ul></li>
+<li><a href="#matrices">Matrices</a><ul>
+<li><a href="#creating-matrix">Creating matrix</a></li>
+<li><a href="#accessing-elements-in-matrix">Accessing elements in matrix</a></li>
+<li><a href="#updating-elements-in-matrix">Updating elements in matrix</a></li>
+<li><a href="#deleting-elements-from-matrix">Deleting elements from matrix</a></li>
+</ul></li>
+<li><a href="#dataframes">Dataframes</a><ul>
+<li><a href="#creating-dataframes">Creating dataframes</a></li>
+<li><a href="#accessing-elements-of-dataframes">Accessing elements of dataframes</a></li>
+</ul></li>
+<li><a href="#factors">Factors</a></li>
+</ul>
+</div>
 
 <div id="vectors" class="section level2">
-<h2><strong>1. Vectors</strong></h2>
-<div id="vector-is-a-basic-data-structure-in-r.-it-contains-element-of-the-same-type." class="section level5">
-<h5>Vector is a basic data structure in R. It contains element of the same type.</h5>
-</div>
+<h2>Vectors</h2>
+<p>Vector is a basic data structure in R. It contains element of the same type.</p>
 <div id="creating-vectors" class="section level3">
-<h3><strong>1.1 Creating vectors</strong></h3>
+<h3>Creating vectors</h3>
 <pre class="r"><code># Creating empty vectors
 vec1 &lt;- vector()
 print(vec1)</code></pre>
@@ -454,7 +478,7 @@ print(typeof(vec5))</code></pre>
 <pre><code>## [1]  TRUE FALSE  TRUE FALSE  TRUE FALSE</code></pre>
 </div>
 <div id="more-shortcut-methods-to-create-vector" class="section level3">
-<h3><strong>1.2 More shortcut methods to create vector</strong></h3>
+<h3>More shortcut methods to create vector</h3>
 <pre class="r"><code># Repeating certain data n times
 vec6 &lt;- rep(x = &#39;a&#39;,7)
 print(vec6)</code></pre>
@@ -474,11 +498,11 @@ print(letters)</code></pre>
 <pre class="r"><code># Sampling with replacement, replace a sampled data each time so that each time the probability to pick item is equal.
 vec8 &lt;- sample(x = LETTERS,size = 10,replace = T)
 print(vec8)</code></pre>
-<pre><code>##  [1] &quot;S&quot; &quot;V&quot; &quot;G&quot; &quot;O&quot; &quot;C&quot; &quot;Y&quot; &quot;E&quot; &quot;J&quot; &quot;P&quot; &quot;M&quot;</code></pre>
+<pre><code>##  [1] &quot;Z&quot; &quot;N&quot; &quot;Q&quot; &quot;S&quot; &quot;M&quot; &quot;V&quot; &quot;M&quot; &quot;S&quot; &quot;W&quot; &quot;Y&quot;</code></pre>
 <pre class="r"><code># Sampling without replacement
 vec9 &lt;- sample(x = LETTERS,size = 10,replace = F)
 print(vec9)</code></pre>
-<pre><code>##  [1] &quot;C&quot; &quot;J&quot; &quot;Z&quot; &quot;N&quot; &quot;V&quot; &quot;S&quot; &quot;X&quot; &quot;T&quot; &quot;E&quot; &quot;Y&quot;</code></pre>
+<pre><code>##  [1] &quot;L&quot; &quot;R&quot; &quot;Y&quot; &quot;H&quot; &quot;W&quot; &quot;U&quot; &quot;O&quot; &quot;F&quot; &quot;C&quot; &quot;T&quot;</code></pre>
 <pre class="r"><code># Numeric ranges can be given to sample. Creating vectors using numeric ranges
 vec10 &lt;- 1:50
 print(vec10)</code></pre>
@@ -486,22 +510,20 @@ print(vec10)</code></pre>
 ## [26] 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50</code></pre>
 <pre class="r"><code>vec11 &lt;- sample(x = vec10,size = 25,replace = T)
 print(vec11)</code></pre>
-<pre><code>##  [1] 32  3 13 39 11 30 36 50  6 49 35 11 17 20 28 26  9  3  7 21 50  6 43 12  6</code></pre>
+<pre><code>##  [1] 46 38 31 11 41 37 10 39 45 22 48  3 34 19  8 36 38  5 36 48 25 43  1 19 22</code></pre>
 </div>
 <div id="indices" class="section level3">
-<h3><strong>1.3 Indices </strong></h3>
-</div>
-<div id="indices-are-the-numbering-of-positions-of-each-element-in-the-list.-the-indices-starts-from-1-to-n-in-r-while-in-some-programming-languages-like-perl-python-indices-starts-with-0." class="section level3">
-<h3>Indices are the numbering of positions of each element in the list. The indices starts from 1 to n in R while in some programming languages like Perl, Python indices starts with 0.</h3>
+<h3>Indices</h3>
+<p>Indices are the numbering of positions of each element in the list. The indices starts from 1 to n in R while in some programming languages like Perl, Python indices starts with 0.</p>
 <pre class="r"><code># print 1st element from vec11
 print(vec11[1])</code></pre>
-<pre><code>## [1] 32</code></pre>
+<pre><code>## [1] 46</code></pre>
 <pre class="r"><code># print fisrt 10 elements from vec11
 print(vec11[1:10])</code></pre>
-<pre><code>##  [1] 32  3 13 39 11 30 36 50  6 49</code></pre>
+<pre><code>##  [1] 46 38 31 11 41 37 10 39 45 22</code></pre>
 </div>
 <div id="what-about-heterogenous-vectors-containing-data-of-different-types-lets-try-it." class="section level3">
-<h3><strong>1.4 What about heterogenous vectors, containing data of different types? Lets try it.</strong></h3>
+<h3>What about heterogenous vectors, containing data of different types? Lets try it.</h3>
 <pre class="r"><code>vec12 &lt;- c(1,2,3,&#39;a&#39;,&#39;b&#39;,TRUE,FALSE)
 print(typeof(vec12))</code></pre>
 <pre><code>## [1] &quot;character&quot;</code></pre>
@@ -510,12 +532,10 @@ print(typeof(vec12))</code></pre>
 </div>
 </div>
 <div id="lists" class="section level2">
-<h2><strong>2. Lists</strong></h2>
-<div id="lists-are-the-r-objects-which-contain-elements-of-different-types-like-numbers-strings-vectors-and-another-list-inside-it.-a-list-can-also-contain-a-matrix-or-a-function-as-its-elements.-list-is-created-using-list-function." class="section level3">
-<h3><strong>Lists are the R objects which contain elements of different types like − numbers, strings, vectors and another list inside it. A list can also contain a matrix or a function as its elements. List is created using list() function.</strong></h3>
-</div>
+<h2>Lists</h2>
+<p>Lists are the R objects which contain elements of different types like − numbers, strings, vectors and another list inside it. A list can also contain a matrix or a function as its elements. List is created using list() function.</p>
 <div id="creating-list" class="section level3">
-<h3><strong>2.1 Creating list</strong></h3>
+<h3>Creating list</h3>
 <pre class="r"><code># Create list containing strings, numbers, vector and logical data.
 l1 &lt;- list(&#39;NCCS&#39;,&#39;Pune&#39;,1,2,3,c(&#39;a&#39;,&#39;b&#39;),TRUE,FALSE)
 print(typeof(l1))</code></pre>
@@ -555,9 +575,10 @@ print(l1[[6]][1])</code></pre>
 <pre class="r"><code># converting list into vector using unlist
 print(unlist(l1))</code></pre>
 <pre><code>## [1] &quot;NCCS&quot;  &quot;Pune&quot;  &quot;1&quot;     &quot;2&quot;     &quot;3&quot;     &quot;a&quot;     &quot;b&quot;     &quot;TRUE&quot;  &quot;FALSE&quot;</code></pre>
-<div id="in-this-list-elements-are-indices-from-1-to-n.-while-some-elements-like-vector-at-index-6-have-further-indices-1-and-2.-we-can-also-use-names-in-place-of-indices-in-the-list." class="section level4">
-<h4>In this list, elements are indices from 1 to n. While some elements like vector at index 6 have further indices 1 and 2. We can also use names in place of indices in the list.</h4>
-<p>###<strong>2.2 Named list</strong></p>
+<p>In this list, elements are indices from 1 to n. While some elements like vector at index 6 have further indices 1 and 2. We can also use names in place of indices in the list.</p>
+</div>
+<div id="named-list" class="section level3">
+<h3>Named list</h3>
 <pre class="r"><code># insert names in list l1
 names(l1) &lt;- c(&#39;MyInstitute&#39;,&#39;IAmFrom&#39;,1,2,3,&#39;characterVector&#39;,&#39;T&#39;,&#39;F&#39;)
 print(l1)</code></pre>
@@ -593,9 +614,245 @@ print(l1[&#39;MyInstitute&#39;])</code></pre>
 <pre class="r"><code># OR we can use &quot;$&quot; sign
 print(l1$MyInstitute)</code></pre>
 <pre><code>## [1] &quot;NCCS&quot;</code></pre>
-<p>###<strong>2.3 Adding/Deleting elements from the list</strong></p>
+</div>
+<div id="addingdeleting-elements-from-the-list" class="section level3">
+<h3>Adding/deleting elements from the list</h3>
+<pre class="r"><code># Add element at 9th position
+l1[9] &lt;- &#39;I am at 9th position&#39;
+# OR
+# Add by using name
+l1[&#39;Tenth&#39;] &lt;- &#39;I am at 10th position&#39;
+
+print(l1)</code></pre>
+<pre><code>## $MyInstitute
+## [1] &quot;NCCS&quot;
+## 
+## $IAmFrom
+## [1] &quot;Pune&quot;
+## 
+## $`1`
+## [1] 1
+## 
+## $`2`
+## [1] 2
+## 
+## $`3`
+## [1] 3
+## 
+## $characterVector
+## [1] &quot;a&quot; &quot;b&quot;
+## 
+## $T
+## [1] TRUE
+## 
+## $F
+## [1] FALSE
+## 
+## [[9]]
+## [1] &quot;I am at 9th position&quot;
+## 
+## $Tenth
+## [1] &quot;I am at 10th position&quot;</code></pre>
+<pre class="r"><code># Remove element by position (9th)
+l1[9] &lt;- NULL
+# OR
+# Remove element by name (Tenth)
+l1[&#39;Tenth&#39;] &lt;- NULL
+
+print(l1)</code></pre>
+<pre><code>## $MyInstitute
+## [1] &quot;NCCS&quot;
+## 
+## $IAmFrom
+## [1] &quot;Pune&quot;
+## 
+## $`1`
+## [1] 1
+## 
+## $`2`
+## [1] 2
+## 
+## $`3`
+## [1] 3
+## 
+## $characterVector
+## [1] &quot;a&quot; &quot;b&quot;
+## 
+## $T
+## [1] TRUE
+## 
+## $F
+## [1] FALSE</code></pre>
+<p>In short, list can contain heterogenous data. A list may also contain matrix, vectors, dataframes etc. as different elements</p>
 </div>
 </div>
+<div id="matrices" class="section level2">
+<h2>Matrices</h2>
+<p>Matrices are the R objects in which the elements are arranged in a two-dimensional rectangular layout. They contain elements of the same types. A Matrix is created using the matrix() function.</p>
+<div id="creating-matrix" class="section level3">
+<h3>Creating matrix</h3>
+<pre class="r"><code>#Create empty matrix of dimensions 3 X 3
+mat1 &lt;- matrix(nrow = 3,ncol = 3)
+print(mat1)</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]   NA   NA   NA
+## [2,]   NA   NA   NA
+## [3,]   NA   NA   NA</code></pre>
+<pre class="r"><code># Fill matrix with elements (numeric or character) in row-wise manner
+mat1 &lt;- matrix(data = 1:9,nrow = 3,ncol = 3,byrow = T)
+print(mat1)</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    1    2    3
+## [2,]    4    5    6
+## [3,]    7    8    9</code></pre>
+<pre class="r"><code># Fill matrix with elements (numeric or character) in column-wise manner
+mat1 &lt;- matrix(data = 1:9,nrow = 3,ncol = 3,byrow = F)
+print(mat1)</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    1    4    7
+## [2,]    2    5    8
+## [3,]    3    6    9</code></pre>
+</div>
+<div id="accessing-elements-in-matrix" class="section level3">
+<h3>Accessing elements in matrix</h3>
+<p>As vectors have indices, matrix also have two-dimensional indices. Example: [1,2] referes to element from 1st row and 2nd column.</p>
+<pre class="r"><code># 1st row and 2nd column.
+mat1[1,2]</code></pre>
+<pre><code>## [1] 4</code></pre>
+<pre class="r"><code># 1st row only
+mat1[1,]</code></pre>
+<pre><code>## [1] 1 4 7</code></pre>
+<pre class="r"><code># 2nd column only
+mat1[,2]</code></pre>
+<pre><code>## [1] 4 5 6</code></pre>
+</div>
+<div id="updating-elements-in-matrix" class="section level3">
+<h3>Updating elements in matrix</h3>
+<p>Elements from the matrix can be updated using index positions</p>
+<pre class="r"><code># updating single element
+mat1[1,2] &lt;- 3000
+print(mat1)</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    1 3000    7
+## [2,]    2    5    8
+## [3,]    3    6    9</code></pre>
+<pre class="r"><code># updating entire row 
+mat1[1,] &lt;- rep(100,3)
+print(mat1)</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]  100  100  100
+## [2,]    2    5    8
+## [3,]    3    6    9</code></pre>
+<pre class="r"><code># updating entire column
+mat1[,2] &lt;- rep(1000,3)
+print(mat1)</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]  100 1000  100
+## [2,]    2 1000    8
+## [3,]    3 1000    9</code></pre>
+</div>
+<div id="deleting-elements-from-matrix" class="section level3">
+<h3>Deleting elements from matrix</h3>
+<p>R does not allow to remove any specific element from the matrix. However, we can add <strong>“NA”</strong> at the position of that element</p>
+<pre class="r"><code># Add NA to position 1,2
+mat1[1,2] &lt;- NA
+print(mat1)</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]  100   NA  100
+## [2,]    2 1000    8
+## [3,]    3 1000    9</code></pre>
+<pre class="r"><code># Remove 3rd row
+mat1[-3,]</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]  100   NA  100
+## [2,]    2 1000    8</code></pre>
+<pre class="r"><code># Remove 1st column
+mat1[,-1]</code></pre>
+<pre><code>##      [,1] [,2]
+## [1,]   NA  100
+## [2,] 1000    8
+## [3,] 1000    9</code></pre>
+<pre class="r"><code># Remove multiple columns or rows
+mat1[,-c(1,3)]</code></pre>
+<pre><code>## [1]   NA 1000 1000</code></pre>
+</div>
+</div>
+<div id="dataframes" class="section level2">
+<h2>Dataframes</h2>
+<p>A data frame is a two-dimensional table-like structure in which each column contains values of one variable (vectors). Unlike matrix, a dataframe can contain heterogenous values.</p>
+<div id="creating-dataframes" class="section level3">
+<h3>Creating dataframes</h3>
+<pre class="r"><code># Create dataframe
+df1 &lt;- data.frame(Numericals=1:10,Characters=LETTERS[1:10],Boolean=rep(x = c(TRUE:FALSE),5))
+print(df1)</code></pre>
+<pre><code>##    Numericals Characters Boolean
+## 1           1          A       1
+## 2           2          B       0
+## 3           3          C       1
+## 4           4          D       0
+## 5           5          E       1
+## 6           6          F       0
+## 7           7          G       1
+## 8           8          H       0
+## 9           9          I       1
+## 10         10          J       0</code></pre>
+</div>
+<div id="accessing-elements-of-dataframes" class="section level3">
+<h3>Accessing elements of dataframes</h3>
+<p>Dataframes can have row-names and column names. Hence, to access elements from dataframes, indices or names can be used.</p>
+<pre class="r"><code># Using indices as in case of matrix
+df1[1,2]</code></pre>
+<pre><code>## [1] &quot;A&quot;</code></pre>
+<pre class="r"><code># Using names
+df1[1,&#39;Characters&#39;]</code></pre>
+<pre><code>## [1] &quot;A&quot;</code></pre>
+<p>Similar to the matrix, updation or deletion of any element can be done in dataframes using index or names.</p>
+<p>Rownames or column names can be changed using following functions</p>
+<pre class="r"><code>rownames(df1) &lt;- letters[1:10]
+
+colnames(df1) &lt;- c(&#39;A&#39;,&#39;B&#39;,&#39;C&#39;)
+
+print(df1)</code></pre>
+<pre><code>##    A B C
+## a  1 A 1
+## b  2 B 0
+## c  3 C 1
+## d  4 D 0
+## e  5 E 1
+## f  6 F 0
+## g  7 G 1
+## h  8 H 0
+## i  9 I 1
+## j 10 J 0</code></pre>
+</div>
+</div>
+<div id="factors" class="section level2">
+<h2>Factors</h2>
+<p>Factors are the data objects which are used to categorize the data and store it as levels. They are useful in the columns which have a limited number of unique values.</p>
+<pre class="r"><code># Create vector
+data &lt;- c(&quot;Male&quot;,&quot;Female&quot;,&quot;Female&quot;,&quot;Male&quot;,&quot;Female&quot;,&quot;Male&quot;)
+
+print(data)</code></pre>
+<pre><code>## [1] &quot;Male&quot;   &quot;Female&quot; &quot;Female&quot; &quot;Male&quot;   &quot;Female&quot; &quot;Male&quot;</code></pre>
+<pre class="r"><code>print(is.factor(data))</code></pre>
+<pre><code>## [1] FALSE</code></pre>
+<pre class="r"><code># Convert vector to factor.
+factor_data &lt;- factor(data)
+
+print(factor_data)</code></pre>
+<pre><code>## [1] Male   Female Female Male   Female Male  
+## Levels: Female Male</code></pre>
+<pre class="r"><code>print(is.factor(factor_data))</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<p>In R factors, levels are sorted alphabetically or in ascending order by default. This order is used in plots which can be changed by using <em>factor</em> function itself.</p>
+<pre class="r"><code>print(factor_data)</code></pre>
+<pre><code>## [1] Male   Female Female Male   Female Male  
+## Levels: Female Male</code></pre>
+<pre class="r"><code>factor_data &lt;- factor(x = factor_data,levels = c(&#39;Male&#39;,&#39;Female&#39;))
+
+print(factor_data)</code></pre>
+<pre><code>## [1] Male   Female Female Male   Female Male  
+## Levels: Male Female</code></pre>
 </div>
 
 
