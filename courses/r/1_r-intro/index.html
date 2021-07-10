@@ -671,68 +671,160 @@
 <div class="universal-wrapper">
   
   <div class="article-style"><ul>
-<li><strong>Overview and R setup (Day 1)</strong>
+<li>
+<p><font color='blue'><strong>Day 1 (Introduction to data-analysis &amp; R)</strong></font></p>
+<p>In today’s world data analysis and visualization plays important roles in business analysis, product designs, defining strategies or policies etc. In every field, now data and its analysis help most importance. This lecture, will introduce you to data analysis, visualization and available tools and programming languages. R is simplest and widely used language in the field of data analysis and visualization. In this lecture we will also introduce you to R and its basic concepts.
+Why to do data analysis &amp; visualization?</p>
 <ul>
-<li>R history and its uses</li>
-<li>R setup</li>
-<li>R environment and R studio</li>
+<li>What are different tools available?</li>
+<li>What is programming and basic concepts?</li>
+<li>What &amp; why R?</li>
+<li>Installing R</li>
+<li>Environment variables (a little talk on OS architecture)</li>
+<li>Understanding R and R studio</li>
+<li>R packages and sources</li>
 <li>Basic syntax</li>
-<li>Base packages, CRAN and Bioconductor (installing packages)</li>
-<li>Summary</li>
 </ul>
 </li>
-<li><strong>Data types, variables and operators (Day 2)</strong> <a href="/courses/r/1_r-intro/2_tutorial.html">Materials</a>
+<li>
+<p><font color='blue'><strong>Day 2 (Data-types and data-structures)</strong></font></p>
+<p>In every language, data type and data structures are the basic way to store data in different objects. While learning programming languages, it is very important to understand how our language stores, different types of data. In this lecture, we will see basic data types and complex data structures in R. We will also see, the variables and different assignment operators to save data in named variable or object.</p>
 <ul>
-<li>Data types:
+<li>Data types in R
+<ul>
+<li>Logical</li>
+<li>Numeric</li>
+<li>Integer</li>
+<li>Complex</li>
+<li>Character</li>
+<li>Raw</li>
+<li>Strings</li>
+</ul>
+</li>
+<li>Data structures in R
 <ul>
 <li>Vectors</li>
 <li>Lists</li>
-<li>Matrix</li>
-<li>Dataframes</li>
+<li>Matrices</li>
+<li>Array</li>
 <li>Factors</li>
+<li>Data-frames</li>
+<li>Variables</li>
 </ul>
 </li>
-<li>Variables:
+</ul>
+</li>
+<li>
+<p><font color='blue'><strong>Day 3 (More on Data-types and data-structures)</strong></font></p>
+<p>In the last lecture we have seen different data-types and data-structures used in R. In this section we will deal with different functions used on different data-structures in R and converting data-types from one to another.</p>
 <ul>
-<li>Variable assignment</li>
-<li>Printing, finding and deleting variables</li>
-</ul>
-</li>
-<li>Operators</li>
-</ul>
-</li>
-<li><strong>Decision making and Loops (Day 3)</strong>
+<li>Conversions
 <ul>
-<li>if, if&hellip;else&hellip; and switch</li>
-<li>for, while and while loop</li>
-<li>Creating vectors without loop</li>
+<li>Character to numeric (vice-versa)</li>
+<li>Numeric to boolean (vice-versa)</li>
+<li>Boolean to character (vice-versa)</li>
 </ul>
 </li>
-<li><strong>Functions (Day 4)</strong></li>
-<li><strong>Manipulating variables (Day 5)</strong>
-<ul>
-<li>Vectors, List, Matrices, Arrays, Factors, Dataframes</li>
+<li>Functions on vectors</li>
+<li>Functions on lists</li>
+<li>Functions on matrix and data-frames</li>
 </ul>
 </li>
-<li><strong>R Data Interfaces (Day 6)</strong>
+<li>
+<p><font color='blue'><strong>Day 4 (Operators)</strong></font></p>
+<p>In this lecture, we will dive into different types of operators which are used to do mathematical operations, comparisons or filtering data.</p>
 <ul>
-<li>Reading CSV and Excel files</li>
-<li>Writing CSV and Excel files</li>
-<li>Reading from clipboard</li>
-<li>Manipulating dataframes and vectors</li>
-<li>Assignment</li>
+<li>Assignment operator</li>
+<li>Arithmetic operators</li>
+<li>Relational operators</li>
+<li>Logical operators</li>
 </ul>
 </li>
-<li><strong>Plotting with ggplot (Day 7)</strong>
+<li>
+<p><font color='blue'><strong>Day 5 (Index)</strong></font></p>
+<p>Index is numerical representation of position of elements in data-structures. In this lecture, we will see the usage of index to subset/retrieve/replace/delete data.</p>
+</li>
+<li>
+<p><font color='blue'><strong>Day 6 (Loops)</strong></font></p>
+<p>Loops are used to perform/execute a code several times or until a particular condition is attained.</p>
 <ul>
-<li>ggplot grammar</li>
-<li>Barplot</li>
-<li>Boxplot</li>
-<li>Pie charts</li>
-<li>Histograms</li>
-<li>Line plot</li>
+<li>for loop</li>
+<li>while loop</li>
+</ul>
+</li>
+<li>
+<p><font color='blue'><strong>Day 7  (Decision making (if&hellip;else))</strong></font></p>
+<p>In every programming language a user may want to take decisions depending on the conditions. If&hellip;else can be used to make such decisions. In this lecture we will dive into conditions (if&hellip;else) loop used in R to make decisions or interrupt loops.</p>
+<ul>
+<li>if&hellip;else</li>
+<li>which function</li>
+</ul>
+</li>
+<li>
+<p><font color='blue'><strong>Day 8 (Conditional filtering of data)</strong></font></p>
+<p>A user may want to filter the data, using some controlled conditions/values. In this lecture, we will see how we can filter data in R in different data-structures using logical statements or search for specific pattern in case of strings.</p>
+<ul>
+<li>Vectors</li>
+<li>Matrix/data-frames</li>
+<li>grep</li>
+</ul>
+</li>
+<li>
+<p><font color='blue'><strong>Day 9 (Data transformation and reshaping)</strong></font></p>
+<p>Matrices and Data frames are two important data structures in R which are routinely used to store data. In this lecture, we will see more operations which can be used to change or manipulate (in mathematical terms, transformation/normalization) data present in matrices or data frames.</p>
+<ul>
+<li>Dive into Matrices</li>
+<li>Dive into Data-frames</li>
+<li>Data reshaping
+<ul>
+<li>Joining columns and rows</li>
+<li>Merging two data-frames</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><font color='blue'><strong>Day 10 (Functions)</strong></font></p>
+<p>Sometimes, a user may want to execute a chunk of code several times on different data-sets and want to reuse the code. In such cases, we can save our code chunk in form of customized function and reuse these functions by sourcing the script.</p>
+<ul>
+<li>arguments</li>
+<li>functions</li>
+<li>return value</li>
+</ul>
+</li>
+<li>
+<p><font color='blue'><strong>Day 11 (Reading/writing data)</strong></font></p>
+<p>Excel, csv or zip files are common ways to store data. In this lecture, we will see multiple ways to read/write data in files.</p>
+</li>
+<li>
+<p><font color='blue'><strong>Day 12 (Plotting data (ggplot grammar))</strong></font></p>
+<p>ggplot2 is most popular package in R to plot data in different ways. Here, in this section, we will see basic ggplot grammar and how to plot our data.</p>
+<ul>
+<li>GGplot grammar
+<ul>
+<li>Bar chart</li>
+<li>Pie chart</li>
+<li>Box plot</li>
+<li>Histogram</li>
 <li>Scatter plot</li>
+<li>Line graphs</li>
 </ul>
+</li>
+</ul>
+</li>
+<li>
+<p><font color='blue'><strong>Day 13 (Real life examples: ANOVA, t-test, PcoA)</strong></font></p>
+<p>R is most commonly used for statistical analysis of data. In this lecture, we will see how to apply statistical test like ANOVA, t-test etc on our data. Sometime, multi-dimensional data like gene-expression data has to be plotted in 2 dimensions (PCoA) we will also see some ordination techniques used in R.</p>
+</li>
+<li>
+<p><font color='blue'><strong>Day 14 (Revision)</strong></font></p>
+<p>This day is reserved for revision of concepts, functions and techniques we learned so far.</p>
+</li>
+<li>
+<p><font color='blue'><strong>Day 15 (Assignment)</strong></font></p>
+<p>Finally, we will see some real life examples for analysis in R. I will also share some assignments to practice.
+- Someday (Assignment discussion)
+This day is reserved for discussion of problems you may face while solving assignments.</p>
 </li>
 </ul>
 </div>
