@@ -1,0 +1,136 @@
+---
+title: "Dattatray S. Mongad"
+image: avatar.jpg
+format: 
+  html:
+    page-layout: full
+    grid:
+      sidebar-width: 3px
+      body-width: 1100px
+about: 
+  template: trestles
+  links: 
+    - icon: envelope
+      href: "mailto:datta.mongad@gmail.com"
+      text: Mail
+    - icon: github
+      href: "https://github.com/microDM"
+      text: GitHub
+    - icon: twitter
+      href: "https://twitter.com/DattatrayMongad"
+      text: Twitter
+    - icon: linkedin
+      href: "https://www.linkedin.com/in/dattatraymongad/"
+      text: LinkedIn
+    - icon: google-scholar
+      href: "https://scholar.google.com/citations?user=yUGW3-YAAAAJ&hl=en"
+      text: GoogleScholar
+---
+
+## About
+
+::: {style="text-align: justify"}
+I am a Bioinformatician working as "**Lead Domain Engineer**" at Persistent Systems Limited, Pune. I have done my Ph.D. in Biotechnology from National Centre for Cell Science, Pune. With the focus on microbiome reasearch, I have developed [MicFunPred](https://github.com/microDM/MicFunPred), a tool for conservative functional prediction based on amplicon data.
+:::
+
+## Education
+
+::: {style="line-height: 0.5"}
+-   **Ph.D. in Biotechnology** (August 2017 - October 2023)
+
+    National Centre for Cell Science, Pune, India.
+
+-   **M.Sc. in Bioinformatics** (2015 - 2017)
+
+    Bioinformatics Centre, SPPU, Pune.
+
+-   **B.Sc. in Biotechnology** (2012 - 2015)
+
+    Fergusson College, Pune
+:::
+
+## Experience
+
+::: {style="line-height: 0.5"}
+-   **Lead Domain Engineer** (Nov 2023 - Present)
+
+    Persistent Systems Limited, Pune, India
+
+-   **Visiting Scholar** (March 2022 - August 2022)
+
+    University of Turku, Finland
+
+-   **Functional Bioinformatics Contractor** (April 2022 - June 2022)
+
+    Digbi Health, Remote
+:::
+
+## Skills
+
+::: {style="line-height:0.5"}
+-   **Prgramming**
+
+    -   R
+
+    -   Shiny
+
+    -   Python
+
+-   **Workflow**
+
+    -   Snakemake and Conda
+
+-   **OS**
+
+    -   Linux and Windows
+
+-   **Data analysis**
+
+    -   NGS (Genome, amplicon, metagenome, transcriptome, CHiP-Seq)
+
+    -   Statistics
+
+-   **GenAI**: API, Topic modelling
+:::
+
+## Achievements
+
+### Awards
+
+::: {style="line-height: 1"}
+-   Best poster "Probiotic prediction using machine learning", International Yakult Symposium
+
+-   Academy of Finland, mobility grant (Visiting scholar: March 2022 -- Aug 2022), University of Turku.
+
+-   DBT-BINC Fellowship
+:::
+
+### Workshops
+
+::: {style="line-height: 0.5"}
+-   Statistical Methods in Microbiome Research, 2019, NCCS, Pune.
+:::
+
+### Conferences
+
+::: {style="line-height: 0.5"}
+-   International Conference on Microbiome Research, 2018, Pune, India
+
+-   Presented "MicFunPred" at InBix2021, Remote
+
+-   Showcased "MicFunPred" at Microbiome Data Congress, 2022, Remote
+
+-   ISME 18, Lausanne, Switzerland
+:::
+
+## Teaching
+
+::: {style="line-height: 1"}
+-   "Viral Genomics and Bioinformatics (Asia), COG-Train" as trainer and conducted a 1 day hands-on on viral metagenomics, 22nd - 26th August, 2022
+
+-   Delivered lectures on "Bioinformatics, biological databases, protein structure & analysis, and Next Generation Sequencing" at Fergusson College under the DBT STRIDE program, 25th - 29th July, 2022.
+
+-   Conducted "Bioinformatics course" at MITCON, Pune, 29th November - 12th December 2021
+
+-   Delivered a lecture on "Molecular Phylogeny: Decrypting relations and time" at Fergusson College, Pune, on 17th May 2021.
+:::

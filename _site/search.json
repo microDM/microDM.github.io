@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dattatray S. Mongad",
+    "section": "",
+    "text": "I am a Bioinformatician working as “Lead Domain Engineer” at Persistent Systems Limited, Pune. I have done my Ph.D. in Biotechnology from National Centre for Cell Science, Pune. With the focus on microbiome reasearch, I have developed MicFunPred, a tool for conservative functional prediction based on amplicon data."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Dattatray S. Mongad",
+    "section": "",
+    "text": "I am a Bioinformatician and PhD student at NCCS, Pune. My research interests include Next Generation Sequencing (NGS) data, microbiome and machine learning. I have been working on the development of tools for better understanding microbiome data. We have developed ProBioPred for the prediction of potential probiotic candidate and MicFunPred to predict functions from microbiome data (16S rRNA data) respectively."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Shah, Nikhil, Abhijit Kulkarni, Dattatray Mongad, Kunal Jaani, Neha Kajale, Vaishali Tamahane, Shital Bhor et al. “Pilot Study on Gut Microbiota Profile in Indian Children with Type 1 Diabetes.” Indian Journal of Endocrinology and Metabolism 27, no. 5 (2023): 404-409.\nChopra, Ankita, Dattatray Mongad, Surekha Satpute, Pranab Behari Mazumder, and Praveen Rahi. “Quorum sensing activities and genomic insights of plant growth-promoting rhizobacteria isolated from Assam tea.” World Journal of Microbiology and Biotechnology 39, no. 6 (2023): 160.\nDhat, Rohini, Dattatray Mongad, Sivarupa Raji, Silpa Arkat, Nitish R. Mahapatra, Nishant Singhal, and Sandhya L. Sitasawad. “Epigenetic modifier alpha-ketoglutarate modulates aberrant gene body methylation and hydroxymethylation marks in diabetic heart.” Epigenetics & Chromatin 16, no. 1 (2023): 12.\nHussain, Aehtesham, Umera Patwekar, Dattatray S. Mongad, and Yogesh S. Shouche. “Strategizing the human microbiome for small molecules: Approaches and perspectives.” Drug Discovery Today 28, no. 2 (2023): 103459.\n\n\n\n\n\n\n\nRaj, Khem, Praveen Rishi, Geeta Shukla, Shivaprakash M. Rudramurhty, Dattatray S. Mongad, and Amrita Kaur. “Possible contribution of alternative transcript isoforms in mature biofilm growth phase of Candida glabrata.” Indian Journal of Microbiology 62, no. 4 (2022): 583-601.\nPedroso, Inti, Shreyas Vivek Kumbhare, Bharat Joshi, Santosh K. Saravanan, Dattatray Suresh Mongad, Simitha Singh-Rambiritch, Tejaswini Uday et al. “Mental health symptom reduction using digital therapeutics care informed by genomic SNPs and gut microbiome signatures.” Journal of Personalized Medicine 12, no. 8 (2022): 1237.\n\n\n\n\n\n\n\nMongad, Dattatray S., Nikeeta S. Chavan, Nitin P. Narwade, Kunal Dixit, Yogesh S. Shouche, and Dhiraj P. Dhotre. “MicFunPred: A conserved approach to predict functional profiles from 16S rRNA gene sequence data.” Genomics 113, no. 6 (2021): 3635-3643.\n\n\n\n\n\n\n\nChaudhari, Diptaraj S., Dhiraj P. Dhotre, Dhiraj M. Agarwal, Akshay H. Gaike, Devika Bhalerao, Parmeshwar Jadhav, Dattatray Mongad et al. “Gut, oral and skin microbiome of Indian patrilineal families reveal perceptible association with age.” Scientific Reports 10, no. 1 (2020): 5685."
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Tools",
+    "section": "",
+    "text": "MicFunPred: A conserved approach to predict functional profiles from 16S rRNA gene sequence data.\nMicFunPred' which only uses a set of core genes predicted at genus level to derive imputed metagenomes, thereby minimizing false positive predictions. MicFunPred identifies genus of unknown 16S rRNA gene sequence based on nearest neighbor search using a custom database and predicts a set of core genes using ~32,000 reference genomes. On simulated datasets, MicFunPred showed the lowest False Positive Rate (FPR) with mean Spearman's correlation of 0.89 (SD=0.03) while on 7 different real datasets the mean correlation was 0.75 (SD=0.08). MicFunPred was found to be faster with low computational requirements and performed better or comparable, when compared with other tools.\nWebserver: http://micfunpred.microdm.net.in/ (Closed for maintenance)\nStandalone: https://github.com/microDM/MicFunPred\nReference paper https://www.sciencedirect.com/science/article/pii/S0888754321003293\nProBioPred: Prediction of probiotic candidate organisms based on genome sequence using Support Vector Machine (SVM) models. ProBioPred uses available genetic information and advanced machine learning models for the prediction of a potential probiotic candidate. In brief, ProBioPred uses curated reference sequences for genes imparting Probiotic Properties, Virulence Factors, and Antibiotic Resistance Genes to predict a potential probiotic candidate. These models can be used for the analysis of genome sequences using ProBioPred either online or as a stand-alone tool. It is built entirely using open source software and tools.\nUtility-codes (https://github.com/microDM/Utility-codes)\nThis repository contains various miscellaneous scripts which I have written for my own purpose. I believe these scripts can be reused with someone in need. Please follow the repository URL to get details for usage of each scripts.\n\nextract_n_multiplex.py: to extract regions of sequences which can be amplified using specified primers and make multiple copies in multi-fasta file (multiplex) with random numbers for \"n\" times.\nseq_stat.py: extract count of each letters(nucleotide/amino acids) and seuence length in each sequence in fasta file.\ncsv2LibSVM.R: convert .csv to .libsvm format\ncontigPlot.py: For plotting density plots of contig lengths. (Usually used for WGS genomes/ draft genomes / MAGs)\nfastp-stats.py To make the summary table of filtering process after running fastp on multiple FASTQ files\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Dattatray S. Mongad",
+    "section": "Education",
+    "text": "Education\n\nPh.D. in Biotechnology (August 2017 - October 2023)\nNational Centre for Cell Science, Pune, India.\nM.Sc. in Bioinformatics (2015 - 2017)\nBioinformatics Centre, SPPU, Pune.\nB.Sc. in Biotechnology (2012 - 2015)\nFergusson College, Pune"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Dattatray S. Mongad",
+    "section": "Experience",
+    "text": "Experience\n\nLead Domain Engineer (Nov 2023 - Present)\nPersistent Systems Limited, Pune, India\nVisiting Scholar (March 2022 - August 2022)\nUniversity of Turku, Finland\nFunctional Bioinformatics Contractor (April 2022 - June 2022)\nDigbi Health, Remote"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "Dattatray S. Mongad",
+    "section": "Skills",
+    "text": "Skills"
+  },
+  {
+    "objectID": "about.html#about",
+    "href": "about.html#about",
+    "title": "Dattatray S. Mongad",
+    "section": "",
+    "text": "I am a Bioinformatician and PhD student at NCCS, Pune. My research interests include Next Generation Sequencing (NGS) data, microbiome and machine learning. I have been working on the development of tools for better understanding microbiome data. We have developed ProBioPred for the prediction of potential probiotic candidate and MicFunPred to predict functions from microbiome data (16S rRNA data) respectively."
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "",
+    "text": "Shah, Nikhil, Abhijit Kulkarni, Dattatray Mongad, Kunal Jaani, Neha Kajale, Vaishali Tamahane, Shital Bhor et al. “Pilot Study on Gut Microbiota Profile in Indian Children with Type 1 Diabetes.” Indian Journal of Endocrinology and Metabolism 27, no. 5 (2023): 404-409.\nChopra, Ankita, Dattatray Mongad, Surekha Satpute, Pranab Behari Mazumder, and Praveen Rahi. “Quorum sensing activities and genomic insights of plant growth-promoting rhizobacteria isolated from Assam tea.” World Journal of Microbiology and Biotechnology 39, no. 6 (2023): 160.\nDhat, Rohini, Dattatray Mongad, Sivarupa Raji, Silpa Arkat, Nitish R. Mahapatra, Nishant Singhal, and Sandhya L. Sitasawad. “Epigenetic modifier alpha-ketoglutarate modulates aberrant gene body methylation and hydroxymethylation marks in diabetic heart.” Epigenetics & Chromatin 16, no. 1 (2023): 12.\nHussain, Aehtesham, Umera Patwekar, Dattatray S. Mongad, and Yogesh S. Shouche. “Strategizing the human microbiome for small molecules: Approaches and perspectives.” Drug Discovery Today 28, no. 2 (2023): 103459."
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "",
+    "text": "Raj, Khem, Praveen Rishi, Geeta Shukla, Shivaprakash M. Rudramurhty, Dattatray S. Mongad, and Amrita Kaur. “Possible contribution of alternative transcript isoforms in mature biofilm growth phase of Candida glabrata.” Indian Journal of Microbiology 62, no. 4 (2022): 583-601.\nPedroso, Inti, Shreyas Vivek Kumbhare, Bharat Joshi, Santosh K. Saravanan, Dattatray Suresh Mongad, Simitha Singh-Rambiritch, Tejaswini Uday et al. “Mental health symptom reduction using digital therapeutics care informed by genomic SNPs and gut microbiome signatures.” Journal of Personalized Medicine 12, no. 8 (2022): 1237."
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "",
+    "text": "Mongad, Dattatray S., Nikeeta S. Chavan, Nitin P. Narwade, Kunal Dixit, Yogesh S. Shouche, and Dhiraj P. Dhotre. “MicFunPred: A conserved approach to predict functional profiles from 16S rRNA gene sequence data.” Genomics 113, no. 6 (2021): 3635-3643."
+  },
+  {
+    "objectID": "publications.html#section-3",
+    "href": "publications.html#section-3",
+    "title": "Publications",
+    "section": "",
+    "text": "Chaudhari, Diptaraj S., Dhiraj P. Dhotre, Dhiraj M. Agarwal, Akshay H. Gaike, Devika Bhalerao, Parmeshwar Jadhav, Dattatray Mongad et al. “Gut, oral and skin microbiome of Indian patrilineal families reveal perceptible association with age.” Scientific Reports 10, no. 1 (2020): 5685."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Dattatray S. Mongad",
+    "section": "",
+    "text": "I am a Bioinformatician working as “Lead Domain Engineer” at Persistent Systems Limited, Pune. I have done my Ph.D. in Biotechnology from National Centre for Cell Science, Pune. With the focus on microbiome reasearch, I have developed MicFunPred, a tool for conservative functional prediction based on amplicon data."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Dattatray S. Mongad",
+    "section": "Education",
+    "text": "Education\n\n\nPh.D. in Biotechnology (August 2017 - October 2023)\nNational Centre for Cell Science, Pune, India.\nM.Sc. in Bioinformatics (2015 - 2017)\nBioinformatics Centre, SPPU, Pune.\nB.Sc. in Biotechnology (2012 - 2015)\nFergusson College, Pune"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Dattatray S. Mongad",
+    "section": "Experience",
+    "text": "Experience\n\n\nLead Domain Engineer (Nov 2023 - Present)\nPersistent Systems Limited, Pune, India\nVisiting Scholar (March 2022 - August 2022)\nUniversity of Turku, Finland\nFunctional Bioinformatics Contractor (April 2022 - June 2022)\nDigbi Health, Remote"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Dattatray S. Mongad",
+    "section": "Skills",
+    "text": "Skills\n\n\nPrgramming\n\nR\nShiny\nPython\n\nWorkflow\n\nSnakemake and Conda\n\nOS\n\nLinux and Windows\n\nData analysis\n\nNGS (Genome, amplicon, metagenome, transcriptome, CHiP-Seq)\nStatistics\n\nGenAI: API, Topic modelling"
+  },
+  {
+    "objectID": "index.html#achievements",
+    "href": "index.html#achievements",
+    "title": "Dattatray S. Mongad",
+    "section": "Achievements",
+    "text": "Achievements\n\nAwards\n\n\nBest poster “Probiotic prediction using machine learning”, International Yakult Symposium\nAcademy of Finland, mobility grant (Visiting scholar: March 2022 – Aug 2022), University of Turku.\nDBT-BINC Fellowship\n\n\n\n\nWorkshops\n\n\nStatistical Methods in Microbiome Research, 2019, NCCS, Pune.\n\n\n\n\nConferences\n\n\nInternational Conference on Microbiome Research, 2018, Pune, India\nPresented “MicFunPred” at InBix2021, Remote\nShowcased “MicFunPred” at Microbiome Data Congress, 2022, Remote\nISME 18, Lausanne, Switzerland"
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "Dattatray S. Mongad",
+    "section": "Teaching",
+    "text": "Teaching\n\n\n“Viral Genomics and Bioinformatics (Asia), COG-Train” as trainer and conducted a 1 day hands-on on viral metagenomics, 22nd - 26th August, 2022\nDelivered lectures on “Bioinformatics, biological databases, protein structure & analysis, and Next Generation Sequencing” at Fergusson College under the DBT STRIDE program, 25th - 29th July, 2022.\nConducted “Bioinformatics course” at MITCON, Pune, 29th November - 12th December 2021\nDelivered a lecture on “Molecular Phylogeny: Decrypting relations and time” at Fergusson College, Pune, on 17th May 2021."
+  }
+]

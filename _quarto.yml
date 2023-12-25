@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dattatray Mongad"
+  page-navigation: true
+  back-to-top-navigation: true
+  page-footer: "Copyright 2023, Dattatray S. Mongad" 
+  navbar:
+    background: secondary
+    search: true
+    left:
+      - publications.qmd
+      - tools.qmd
+    tools:
+      - icon: twitter
+        href: https://twitter.com/DattatrayMongad
+      - icon: github
+        href: https://github.com/microDM
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

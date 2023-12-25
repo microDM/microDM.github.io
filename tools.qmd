@@ -1,0 +1,33 @@
+---
+title: "Tools"
+format: 
+  html:
+    page-layout: full
+    grid:
+      sidebar-width: 3px
+      body-width: 1100px
+---
+
+-   **MicFunPred: A conserved approach to predict functional profiles from 16S rRNA gene sequence data.**
+
+    MicFunPred' which only uses a set of core genes predicted at genus level to derive imputed metagenomes, thereby minimizing false positive predictions. MicFunPred identifies genus of unknown 16S rRNA gene sequence based on nearest neighbor search using a custom database and predicts a set of core genes using \~32,000 reference genomes. On simulated datasets, MicFunPred showed the lowest False Positive Rate (FPR) with mean Spearman's correlation of 0.89 (SD=0.03) while on 7 different real datasets the mean correlation was 0.75 (SD=0.08). MicFunPred was found to be faster with low computational requirements and performed better or comparable, when compared with other tools.
+
+    **Webserver:** <http://micfunpred.microdm.net.in/> (Closed for maintenance)\
+    **Standalone:** <https://github.com/microDM/MicFunPred>\
+    **Reference paper** <https://www.sciencedirect.com/science/article/pii/S0888754321003293>
+
+-   **ProBioPred: Prediction of probiotic candidate organisms based on genome sequence using Support Vector Machine (SVM) models.** ProBioPred uses available genetic information and advanced machine learning models for the prediction of a potential probiotic candidate. In brief, ProBioPred uses curated reference sequences for genes imparting Probiotic Properties, Virulence Factors, and Antibiotic Resistance Genes to predict a potential probiotic candidate. These models can be used for the analysis of genome sequences using ProBioPred either online or as a stand-alone tool. It is built entirely using open source software and tools.
+
+-   **Utility-codes (<https://github.com/microDM/Utility-codes>)**
+
+    This repository contains various miscellaneous scripts which I have written for my own purpose. I believe these scripts can be reused with someone in need. Please follow the repository URL to get details for usage of each scripts.
+
+    -   **extract_n_multiplex.py:** to extract regions of sequences which can be amplified using specified primers and make multiple copies in multi-fasta file (multiplex) with random numbers for "n" times.
+
+    -   **seq_stat.py:** extract count of each letters(nucleotide/amino acids) and seuence length in each sequence in fasta file.
+
+    -   **csv2LibSVM.R:** convert .csv to .libsvm format
+
+    -   **contigPlot.py:** For plotting density plots of contig lengths. (Usually used for WGS genomes/ draft genomes / MAGs)
+
+    -   **fastp-stats.py** To make the summary table of filtering process after running fastp on multiple FASTQ files
