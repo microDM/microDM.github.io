@@ -7,6 +7,9 @@ format:
     grid:
       sidebar-width: 3px
       body-width: 1100px
+filters:
+  - openlinksinnewpage
+  
 about: 
   template: trestles
   links: 
@@ -30,7 +33,7 @@ about:
 ## About
 
 ::: {style="text-align: justify"}
-I am a Bioinformatician working as "**Lead Domain Engineer**" at Persistent Systems Limited, Pune. I have done my Ph.D. in Biotechnology from National Centre for Cell Science, Pune. With the focus on microbiome reasearch, I have developed [MicFunPred](https://github.com/microDM/MicFunPred), a tool for conservative functional prediction based on amplicon data.
+I am Dr. Dattatray Mongad, currently serving as the "Lead Domain Engineer" at Persistent Systems Limited in Pune, specializing in Bioinformatics. My Ph.D. in Biotechnology was completed at the National Centre for Cell Science, Pune, where I concentrated on microbiome research. A significant achievement during my doctoral research was the development of [MicFunPred](https://github.com/microDM/MicFunPred "MicFunPred: A conserved approach to predict functional profiles from 16S rRNA gene sequence data"), a tool for conservative functional prediction based on amplicon data. Throughout my Ph.D. tenure, I actively participated in diverse microbiome projects, spanning topics such as infant microbiome, mental health and digital therapeutics, and type 2 diabetes (T2D). My expertise lies in Next-Generation Sequence data analysis, multi-omics, Machine Learning (ML), and the development of workflows using Snakemake.
 :::
 
 ## Education
@@ -68,7 +71,7 @@ I am a Bioinformatician working as "**Lead Domain Engineer**" at Persistent Syst
 ## Skills
 
 ::: {style="line-height:0.5"}
--   **Prgramming**
+-   **Programming**
 
     -   R
 
@@ -98,11 +101,11 @@ I am a Bioinformatician working as "**Lead Domain Engineer**" at Persistent Syst
 ### Awards
 
 ::: {style="line-height: 1"}
--   Best poster "Probiotic prediction using machine learning", International Yakult Symposium
+-   DBT-BINC fellowship for Ph.D.(Aug 2017 -- July 2022)
 
--   Academy of Finland, mobility grant (Visiting scholar: March 2022 -- Aug 2022), University of Turku.
+-   Best poster "Probiotic prediction using machine learning", International Yakult Symposium, 2019, India
 
--   DBT-BINC Fellowship
+-   DBT scholarship (top 15 students), M.Sc. Bioinformatics (June 2015 -- May 2017)
 :::
 
 ### Workshops

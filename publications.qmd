@@ -4,6 +4,12 @@ title: 'Publications'
 
 # Research articles
 
+## 2024
+
+::: {style="text-align: justify"}
+-   Hussain, Aehtesham, Umera Patwekar, **Dattatray S. Mongad**, Yogesh Nimonkar, Swapnil Mundhe, Dhiraj Paul, Om Prakash, and Yogesh S. Shouche. "Functional antagonism and insights into the biosynthetic potential of human gut-derived microbes." International Journal of Antimicrobial Agents (2024): 107091.
+:::
+
 ## 2023
 
 ::: {style="text-align: justify"}
@@ -34,6 +40,7 @@ title: 'Publications'
 
 ::: {style="text-align: justify"}
 -   Chaudhari, Diptaraj S., Dhiraj P. Dhotre, Dhiraj M. Agarwal, Akshay H. Gaike, Devika Bhalerao, Parmeshwar Jadhav, **Dattatray Mongad** et al. "Gut, oral and skin microbiome of Indian patrilineal families reveal perceptible association with age." *Scientific Reports* 10, no. 1 (2020): 5685.
+-   Kumbhare, Shreyas V., Dhrati V. Patangia, Dattatray S. Mongad, Abhijeet Bora, Ashish R. Bavdekar, and Yogesh S. Shouche. "Gut microbial diversity during pregnancy and early infancy: an exploratory study in the Indian population." FEMS Microbiology Letters 367, no. 3 (2020): fnaa022.
 :::
 
 # Book chapters
@@ -45,7 +52,6 @@ title: 'Publications'
 # Preprints
 
 ::: {style="text-align: justify"}
--   Hussain, Aehtesham, Umera Patwekar, **Dattatray S. Mongad**, Yogesh Nimonkar, Swapnil Mundhe, Dhiraj Paul, Om Prakash, and Yogesh S. Shouche. "Functional antagonistic interactions and genomic insights into the biosynthetic potential of human gut-derived microbiota." *bioRxiv* (2023): 2023-02.
+
 -   Bano, Shehnaz, Shyam More, **Dattatray S. Mongad**, Abdul Khalique, Dhiraj P. Dhotre, Manoj K. Bhat, and Vasudevan Seshadri. "Prolonged exposure to insulin causes epigenetic alteration leading to insulin resistance." *bioRxiv* (2022): 2022-04.
--   Kumbhare, Shreyas V., Dhrati V. Patangia, **Dattatray S. Mongad**, Abhijeet Bora, Ashish R. Bavdekar, and Yogesh S. Shouche. "Gut microbial diversity during pregnancy and early infancy: an exploratory study in the Indian population." *FEMS Microbiology Letters* 367, no. 3 (2020): fnaa022.
 :::

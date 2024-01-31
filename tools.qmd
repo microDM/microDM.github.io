@@ -6,6 +6,8 @@ format:
     grid:
       sidebar-width: 3px
       body-width: 1100px
+filters:
+  - openlinksinnewpage
 ---
 
 -   **MicFunPred: A conserved approach to predict functional profiles from 16S rRNA gene sequence data.**
