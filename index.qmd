@@ -34,7 +34,7 @@ about:
 ## About
 
 ::: {style="text-align: justify"}
-Welcome to my personal website! I’m Dr. Dattatray Mongad, a Bioinformatics specialist with a passion for unraveling the complexities of microbiomes and multi-omics data. Currently, I work as a Postdoctoral Researcher at University of Turku, Finland ([Turku Data Science Group](https://datascience.utu.fi/)). I hold a Ph.D. in Biotechnology from the National Centre for Cell Science, Pune, where I developed [MicFunPred](https://github.com/microDM/MicFunPred), a tool for functional prediction based on amplicon data. With expertise in Next-Generation Sequencing, machine learning, and bioinformatics workflow development, I’ve contributed to research in diverse areas such as infant microbiomes, mental health, and type 2 diabetes.
+Welcome to my personal website! I am Dr. Dattatray Mongad, a Bioinformatics specialist with a passion for unraveling the complexities of microbiomes and multi-omics data. Currently, I work as a Postdoctoral Researcher at University of Turku, Finland ([Turku Data Science Group](https://datascience.utu.fi/)). I hold a Ph.D. in Biotechnology from the National Centre for Cell Science, Pune, where I developed [MicFunPred](https://github.com/microDM/MicFunPred), a tool for functional prediction based on amplicon data. With expertise in Next-Generation Sequencing, machine learning, and bioinformatics workflow development, I’ve contributed to research in diverse areas such as infant microbiomes, mental health, and type 2 diabetes.
 :::
 
 ## Education
