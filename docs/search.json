@@ -1,17 +1,24 @@
 [
   {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Tools",
+    "section": "",
+    "text": "MicFunPred: A conserved approach to predict functional profiles from 16S rRNA gene sequence data.\nMicFunPred’ which only uses a set of core genes predicted at genus level to derive imputed metagenomes, thereby minimizing false positive predictions. MicFunPred identifies genus of unknown 16S rRNA gene sequence based on nearest neighbor search using a custom database and predicts a set of core genes using ~32,000 reference genomes. On simulated datasets, MicFunPred showed the lowest False Positive Rate (FPR) with mean Spearman’s correlation of 0.89 (SD=0.03) while on 7 different real datasets the mean correlation was 0.75 (SD=0.08). MicFunPred was found to be faster with low computational requirements and performed better or comparable, when compared with other tools.\nWebserver: http://micfunpred.microdm.net.in/ (Closed for maintenance)\nStandalone: https://github.com/microDM/MicFunPred\nReference paper https://www.sciencedirect.com/science/article/pii/S0888754321003293\nProBioPred: Prediction of probiotic candidate organisms based on genome sequence using Support Vector Machine (SVM) models. ProBioPred uses available genetic information and advanced machine learning models for the prediction of a potential probiotic candidate. In brief, ProBioPred uses curated reference sequences for genes imparting Probiotic Properties, Virulence Factors, and Antibiotic Resistance Genes to predict a potential probiotic candidate. These models can be used for the analysis of genome sequences using ProBioPred either online or as a stand-alone tool. It is built entirely using open source software and tools.\nUtility-codes (https://github.com/microDM/Utility-codes)\nThis repository contains various miscellaneous scripts which I have written for my own purpose. I believe these scripts can be reused with someone in need. Please follow the repository URL to get details for usage of each scripts.\n\nextract_n_multiplex.py: to extract regions of sequences which can be amplified using specified primers and make multiple copies in multi-fasta file (multiplex) with random numbers for “n” times.\nseq_stat.py: extract count of each letters(nucleotide/amino acids) and seuence length in each sequence in fasta file.\ncsv2LibSVM.R: convert .csv to .libsvm format\ncontigPlot.py: For plotting density plots of contig lengths. (Usually used for WGS genomes/ draft genomes / MAGs)\nfastp-stats.py To make the summary table of filtering process after running fastp on multiple FASTQ files\n\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Dattatray S. Mongad",
     "section": "",
-    "text": "I am Dr. Dattatray Mongad, currently serving as the “Lead Domain Engineer” at Persistent Systems Limited in Pune, specializing in Bioinformatics. My Ph.D. in Biotechnology was completed at the National Centre for Cell Science, Pune, where I concentrated on microbiome research. A significant achievement during my doctoral research was the development of MicFunPred, a tool for conservative functional prediction based on amplicon data. Throughout my Ph.D. tenure, I actively participated in diverse microbiome projects, spanning topics such as infant microbiome, mental health and digital therapeutics, and type 2 diabetes (T2D). My expertise lies in Next-Generation Sequence data analysis, multi-omics, Machine Learning (ML), and the development of workflows using Snakemake."
+    "text": "Welcome to my personal website! I am Dr. Dattatray Mongad, a Bioinformatics specialist with a passion for unraveling the complexities of microbiomes and multi-omics data. Currently, I work as a Postdoctoral Researcher at University of Turku, Finland (Turku Data Science Group). I hold a Ph.D. in Biotechnology from the National Centre for Cell Science, Pune, where I developed MicFunPred, a tool for functional prediction based on amplicon data. With expertise in Next-Generation Sequencing, machine learning, and bioinformatics workflow development, I’ve contributed to research in diverse areas such as infant microbiomes, mental health, and type 2 diabetes."
   },
   {
     "objectID": "index.html#about",
     "href": "index.html#about",
     "title": "Dattatray S. Mongad",
     "section": "",
-    "text": "I am Dr. Dattatray Mongad, currently serving as the “Lead Domain Engineer” at Persistent Systems Limited in Pune, specializing in Bioinformatics. My Ph.D. in Biotechnology was completed at the National Centre for Cell Science, Pune, where I concentrated on microbiome research. A significant achievement during my doctoral research was the development of MicFunPred, a tool for conservative functional prediction based on amplicon data. Throughout my Ph.D. tenure, I actively participated in diverse microbiome projects, spanning topics such as infant microbiome, mental health and digital therapeutics, and type 2 diabetes (T2D). My expertise lies in Next-Generation Sequence data analysis, multi-omics, Machine Learning (ML), and the development of workflows using Snakemake."
+    "text": "Welcome to my personal website! I am Dr. Dattatray Mongad, a Bioinformatics specialist with a passion for unraveling the complexities of microbiomes and multi-omics data. Currently, I work as a Postdoctoral Researcher at University of Turku, Finland (Turku Data Science Group). I hold a Ph.D. in Biotechnology from the National Centre for Cell Science, Pune, where I developed MicFunPred, a tool for functional prediction based on amplicon data. With expertise in Next-Generation Sequencing, machine learning, and bioinformatics workflow development, I’ve contributed to research in diverse areas such as infant microbiomes, mental health, and type 2 diabetes."
   },
   {
     "objectID": "index.html#education",
@@ -25,7 +32,7 @@
     "href": "index.html#experience",
     "title": "Dattatray S. Mongad",
     "section": "Experience",
-    "text": "Experience\n\n\nLead Domain Engineer (Nov 2023 - Present)\nPersistent Systems Limited, Pune, India\nVisiting Scholar (March 2022 - August 2022)\nUniversity of Turku, Finland\nFunctional Bioinformatics Contractor (April 2022 - June 2022)\nDigbi Health, Remote"
+    "text": "Experience\n\n\nPostdoctoral Researcher (August 2024 - Present)\nUniversity of Turku, Finland\nLead Domain Engineer (Nov 2023 - June 2024)\nPersistent Systems Limited, Pune, India\nVisiting Scholar (March 2022 - August 2022)\nUniversity of Turku, Finland\nFunctional Bioinformatics Contractor (April 2022 - June 2022)\nDigbi Health, Remote"
   },
   {
     "objectID": "index.html#skills",
@@ -49,13 +56,6 @@
     "text": "Teaching\n\n\n“Viral Genomics and Bioinformatics (Asia), COG-Train” as trainer and conducted a 1 day hands-on on viral metagenomics, 22nd - 26th August, 2022\nDelivered lectures on “Bioinformatics, biological databases, protein structure & analysis, and Next Generation Sequencing” at Fergusson College under the DBT STRIDE program, 25th - 29th July, 2022.\nConducted “Bioinformatics course” at MITCON, Pune, 29th November - 12th December 2021\nDelivered a lecture on “Molecular Phylogeny: Decrypting relations and time” at Fergusson College, Pune, on 17th May 2021."
   },
   {
-    "objectID": "tools.html",
-    "href": "tools.html",
-    "title": "Tools",
-    "section": "",
-    "text": "MicFunPred: A conserved approach to predict functional profiles from 16S rRNA gene sequence data.\nMicFunPred’ which only uses a set of core genes predicted at genus level to derive imputed metagenomes, thereby minimizing false positive predictions. MicFunPred identifies genus of unknown 16S rRNA gene sequence based on nearest neighbor search using a custom database and predicts a set of core genes using ~32,000 reference genomes. On simulated datasets, MicFunPred showed the lowest False Positive Rate (FPR) with mean Spearman’s correlation of 0.89 (SD=0.03) while on 7 different real datasets the mean correlation was 0.75 (SD=0.08). MicFunPred was found to be faster with low computational requirements and performed better or comparable, when compared with other tools.\nWebserver: http://micfunpred.microdm.net.in/ (Closed for maintenance)\nStandalone: https://github.com/microDM/MicFunPred\nReference paper https://www.sciencedirect.com/science/article/pii/S0888754321003293\nProBioPred: Prediction of probiotic candidate organisms based on genome sequence using Support Vector Machine (SVM) models. ProBioPred uses available genetic information and advanced machine learning models for the prediction of a potential probiotic candidate. In brief, ProBioPred uses curated reference sequences for genes imparting Probiotic Properties, Virulence Factors, and Antibiotic Resistance Genes to predict a potential probiotic candidate. These models can be used for the analysis of genome sequences using ProBioPred either online or as a stand-alone tool. It is built entirely using open source software and tools.\nUtility-codes (https://github.com/microDM/Utility-codes)\nThis repository contains various miscellaneous scripts which I have written for my own purpose. I believe these scripts can be reused with someone in need. Please follow the repository URL to get details for usage of each scripts.\n\nextract_n_multiplex.py: to extract regions of sequences which can be amplified using specified primers and make multiple copies in multi-fasta file (multiplex) with random numbers for “n” times.\nseq_stat.py: extract count of each letters(nucleotide/amino acids) and seuence length in each sequence in fasta file.\ncsv2LibSVM.R: convert .csv to .libsvm format\ncontigPlot.py: For plotting density plots of contig lengths. (Usually used for WGS genomes/ draft genomes / MAGs)\nfastp-stats.py To make the summary table of filtering process after running fastp on multiple FASTQ files\n\n\n\n\n\n Back to top"
-  },
-  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
@@ -67,7 +67,7 @@
     "href": "publications.html#section",
     "title": "Publications",
     "section": "2024",
-    "text": "2024\n\n\nHussain, Aehtesham, Umera Patwekar, Dattatray S. Mongad, Yogesh Nimonkar, Swapnil Mundhe, Dhiraj Paul, Om Prakash, and Yogesh S. Shouche. “Functional antagonism and insights into the biosynthetic potential of human gut-derived microbes.” International Journal of Antimicrobial Agents (2024): 107091."
+    "text": "2024\n\n\nAntony, Runa, Dattatray Mongad, Aritri Sanyal, Dhiraj Dhotre, and Meloth Thamban. “Holed up, but thriving: Impact of multitrophic cryoconite communities on glacier elemental cycles.” Science of the Total Environment 933 (2024): 173187.\nHussain, Aehtesham, Umera Patwekar, Dattatray S. Mongad, Yogesh Nimonkar, Swapnil Mundhe, Dhiraj Paul, Om Prakash, and Yogesh S. Shouche. “Functional antagonism and insights into the biosynthetic potential of human gut-derived microbes.” International Journal of Antimicrobial Agents (2024): 107091."
   },
   {
     "objectID": "publications.html#section-1",
