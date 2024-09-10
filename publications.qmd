@@ -69,6 +69,7 @@ pq
 ## 2024
 
 ::: {style="text-align: justify"}
+-   Antony, Runa, **Dattatray Mongad**, Aritri Sanyal, Dhiraj Dhotre, and Meloth Thamban. "Holed up, but thriving: Impact of multitrophic cryoconite communities on glacier elemental cycles." *Science of the Total Environment* 933 (2024): 173187.
 -   Hussain, Aehtesham, Umera Patwekar, **Dattatray S. Mongad**, Yogesh Nimonkar, Swapnil Mundhe, Dhiraj Paul, Om Prakash, and Yogesh S. Shouche. "Functional antagonism and insights into the biosynthetic potential of human gut-derived microbes." International Journal of Antimicrobial Agents (2024): 107091.
 :::
 
