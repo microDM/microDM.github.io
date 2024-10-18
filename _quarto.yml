@@ -6,7 +6,7 @@ website:
   title: "Dattatray Mongad"
   page-navigation: true
   back-to-top-navigation: true
-  page-footer: "Copyright 2023, Dattatray S. Mongad" 
+  page-footer: "Copyright 2024, Dattatray S. Mongad" 
   navbar:
     background: secondary
     search: true

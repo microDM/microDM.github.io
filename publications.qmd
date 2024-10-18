@@ -77,7 +77,7 @@ df.pubs <- df.pubs[order(df.pubs$year,decreasing = T),]
 df.pubs$title <- ifelse(
   is.na(df.pubs$cid),
   df.pubs$title,
-  paste0("<a href='https://scholar.google.com/scholar?oi=bibs&cluster=",df.pubs$cid,"&btnI=1&hl=en'>",df.pubs$title,"</a>")
+  paste0("<a href='https://scholar.google.com/scholar?oi=bibs&cluster=",df.pubs$cid,"&btnI=1&hl=en' target='_blank'>",df.pubs$title,"</a>")
 )
 # get rid of unwanted columns
 df.pubs <- df.pubs %>% select(c('title', 'author', 'journal', 'cites', 'year'))
