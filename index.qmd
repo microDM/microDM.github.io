@@ -39,7 +39,7 @@ Welcome to my personal website! I am Dr. Dattatray Mongad, a Bioinformatics spec
 
 ## Education
 
-::: {style="line-height: 0.5"}
+::: {style="text-align: justify; line-height:0.5"}
 -   **Ph.D. in Biotechnology** (August 2017 - October 2023)
 
     National Centre for Cell Science, Pune, India.
@@ -55,7 +55,7 @@ Welcome to my personal website! I am Dr. Dattatray Mongad, a Bioinformatics spec
 
 ## Experience
 
-::: {style="line-height: 0.5"}
+::: {style="text-align: justify; line-height:0.5"}
 -   **Postdoctoral Researcher** (August 2024 - Present)
 
     University of Turku, Finland
@@ -75,7 +75,7 @@ Welcome to my personal website! I am Dr. Dattatray Mongad, a Bioinformatics spec
 
 ## Skills
 
-::: {style="line-height:0.5"}
+::: {style="text-align: justify; line-height:0.5"}
 -   **Programming**
 
     -   R
@@ -105,7 +105,7 @@ Welcome to my personal website! I am Dr. Dattatray Mongad, a Bioinformatics spec
 
 ### Awards
 
-::: {style="line-height: 1"}
+::: {style="text-align: justify"}
 -   DBT-BINC fellowship for Ph.D.(Aug 2017 -- July 2022)
 
 -   Best poster "Probiotic prediction using machine learning", International Yakult Symposium, 2019, India
@@ -115,13 +115,13 @@ Welcome to my personal website! I am Dr. Dattatray Mongad, a Bioinformatics spec
 
 ### Workshops
 
-::: {style="line-height: 0.5"}
+::: {style="text-align: justify"}
 -   Statistical Methods in Microbiome Research, 2019, NCCS, Pune.
 :::
 
 ### Conferences
 
-::: {style="line-height: 0.5"}
+::: {style="text-align: justify"}
 -   International Conference on Microbiome Research, 2018, Pune, India
 
 -   Presented "MicFunPred" at InBix2021, Remote
@@ -133,7 +133,7 @@ Welcome to my personal website! I am Dr. Dattatray Mongad, a Bioinformatics spec
 
 ## Teaching
 
-::: {style="line-height: 1"}
+::: {style="text-align: justify"}
 -   "Viral Genomics and Bioinformatics (Asia), COG-Train" as trainer and conducted a 1 day hands-on on viral metagenomics, 22nd - 26th August, 2022
 
 -   Delivered lectures on "Bioinformatics, biological databases, protein structure & analysis, and Next Generation Sequencing" at Fergusson College under the DBT STRIDE program, 25th - 29th July, 2022.
